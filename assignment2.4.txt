@@ -1,0 +1,26 @@
+1. Explain the importance of Name node in Hadoop cluster
+
+
+  * Name node is the centerpiece of HDFS .
+  
+  * It is known as the Master .
+ 
+  * It stores the meta data of hdfs . 
+
+  * The directory tree of all files in file system and tracks the files across the cluster .
+
+  * It does not store the actual data .
+
+  * When name node is down then hadoop cluster is inaccessible .
+
+  * It is the single point of failure(SPOF).
+
+  * It knows the list of blocks and its location for any given file in hdfs .
+
+  * Client applications talk to the name node whenever they wish to locate a file or add or copy or move or delete a file .
+
+  
+
+
+2. Practice the beginners commands for HDFS from the below link
+https://acadgild.com/blog/hdfs-commands-for-beginners/ 
